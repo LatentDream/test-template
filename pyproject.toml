@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-template"
+version = "0.1.0"
+description = ""
+authors = ["latentdream <guillaume.thibault.98@proton.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.38.0"
+plotly = "^5.24.1"
+numpy = "^2.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
